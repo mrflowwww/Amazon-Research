@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 import time 
 import json
 
-
+#Halllo
 
 chrome_options = Options()
 chrome_options.add_extension(r'C:\Flo\Amazon MBA\Python Scripts\ds-amazon-quick-view.crx')
