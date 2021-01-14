@@ -1,0 +1,68 @@
+[
+    {
+        "Fußball": [
+            {
+                "ProductsCompetition": "6.000",
+                "Price": 26.68,
+                "BSR": {
+                    "BSR relative": 155059,
+                    "BSR absolute": 69776,
+                    "BSR percantage": "45.0%"
+                },
+                "Rating Percantage": "88.33%",
+                "Rating Value": {
+                    "Rating Value relative": 4.55,
+                    "Rating Value absolute": 4.02
+                },
+                "Rating Count": {
+                    "Rating Count relative": 9399.95,
+                    "Rating Count absolute": 2976.65
+                }
+            }
+        ]
+    },
+    {
+        "Bmx": [
+            {
+                "ProductsCompetition": "231",
+                "Price": 20.04,
+                "BSR": {
+                    "BSR relative": 294359,
+                    "BSR absolute": 93213,
+                    "BSR percantage": "31.67%"
+                },
+                "Rating Percantage": "66.67%",
+                "Rating Value": {
+                    "Rating Value relative": 4.51,
+                    "Rating Value absolute": 3.0
+                },
+                "Rating Count": {
+                    "Rating Count relative": 2456.75,
+                    "Rating Count absolute": 163.78
+                }
+            }
+        ]
+    },
+    {
+        "Baseball": [
+            {
+                "ProductsCompetition": "4.000",
+                "Price": 15.7,
+                "BSR": {
+                    "BSR relative": 96307,
+                    "BSR absolute": 48153,
+                    "BSR percantage": "50.0%"
+                },
+                "Rating Percantage": "95.0%",
+                "Rating Value": {
+                    "Rating Value relative": 4.44,
+                    "Rating Value absolute": 4.21
+                },
+                "Rating Count": {
+                    "Rating Count relative": 9236.25,
+                    "Rating Count absolute": 3694.5
+                }
+            }
+        ]
+    }
+]
