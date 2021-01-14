@@ -45,3 +45,12 @@
 [0114/043442.907:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\eichs\AppData\Local\Temp\scoped_dir13492_1993660646\Crashpad\attachments\cc0715f1-8377-4a8d-ac0f-a8c92bdb7928: Das System kann den angegebenen Pfad nicht finden. (0x3)
 [0114/044357.532:ERROR:directory_reader_win.cc(43)] FindFirstFile: Das System kann den angegebenen Pfad nicht finden. (0x3)
 [0114/044406.779:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\eichs\AppData\Local\Temp\scoped_dir11396_325581317\Crashpad\attachments\82e26047-04ee-4dab-ac42-9ef3907782c9: Das System kann den angegebenen Pfad nicht finden. (0x3)
+[0114/044753.638:ERROR:process_reader_win.cc(123)] NtOpenThread: {Zugriff verweigert} Ein Prozess hat einen Zugriff auf ein Objekt angefordert, aber ihm wurden nicht die Rechte für den Zugriff erteilt. (0xc0000022)
+[0114/044753.639:ERROR:exception_snapshot_win.cc(99)] thread ID 9248 not found in process
+[0114/044753.670:ERROR:process_reader_win.cc(123)] NtOpenThread: {Zugriff verweigert} Ein Prozess hat einen Zugriff auf ein Objekt angefordert, aber ihm wurden nicht die Rechte für den Zugriff erteilt. (0xc0000022)
+[0114/044753.670:ERROR:exception_snapshot_win.cc(99)] thread ID 14824 not found in process
+[0114/164943.057:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\eichs\AppData\Local\Temp\scoped_dir9232_568839248\Crashpad\attachments\14fbaf61-e481-4d90-92bb-5cb0637f1d33: Das System kann den angegebenen Pfad nicht finden. (0x3)
+[0114/193307.521:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\eichs\AppData\Local\Temp\scoped_dir19168_782590289\Crashpad\attachments\1db21bc1-b9e9-4f83-a604-77e9e12fe2bf: Das System kann den angegebenen Pfad nicht finden. (0x3)
+[0114/193453.779:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\eichs\AppData\Local\Temp\scoped_dir18224_891404523\Crashpad\attachments\2fd0a6f1-5d2b-4802-9fc5-ccd94cfc8b25: Das System kann den angegebenen Pfad nicht finden. (0x3)
+[0114/194604.428:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\eichs\AppData\Local\Temp\scoped_dir19368_1256463941\Crashpad\attachments\29fe191d-7969-423b-9b0d-5f1f1e149a77: Das System kann den angegebenen Pfad nicht finden. (0x3)
+[0114/194858.933:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\eichs\AppData\Local\Temp\scoped_dir16152_1242166014\Crashpad\attachments\05b063ba-f9dc-495b-a9b1-a3c9f37d4d43: Das System kann den angegebenen Pfad nicht finden. (0x3)

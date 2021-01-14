@@ -24,6 +24,7 @@ niches = ['Fußball', 'Bmx', 'Baseball']
 
 results = []
 all_products_global = []
+all_products_global_final = []
 all_niche_rankings = []
 
 for categorie in niches:
@@ -139,13 +140,11 @@ for categorie in niches:
             'Rating_value': product_rating_value,
             'Rating_count': product_rating_count,
             'BSR': product_bsr,
-
+            'Categorie': categorie
         })
 
         counter += 1
     
-    all_products_global.append({f'{categorie}': all_products})
-
 
 
     #BUSINESS LOGIC
@@ -158,6 +157,18 @@ for categorie in niches:
     products_with_bsr = 0
     products_with_rating_value = 0
     products_with_rating_count = 0
+
+    all_products_without_null = []
+
+    for product in all_products:
+        if product['BSR'] is not None:
+            all_products_without_null.append(product)
+
+    all_products_without_null = sorted(all_products_without_null, key=lambda i: i['BSR'])
+
+    print(all_products_without_null[0:5])
+    for product in all_products_without_null[0:5]:
+        all_products_global.append(product)
 
     for product in all_products:
         try:
@@ -219,7 +230,13 @@ for categorie in niches:
     })
 
 
+for product in all_products_global:
+        if product['BSR'] is not None:
+            all_products_global_final.append(product)
 
+all_products_global_final = sorted(all_products_global_final, key=lambda i: i['BSR'])
+
+print(all_products_global_final[0:5])
 
 
 
@@ -229,11 +246,11 @@ print(all_niche_rankings)
 
 
 
-with open('niche_rankings.json', 'w', encoding='utf-8') as f:
-    json.dump(all_niche_rankings, f, ensure_ascii=False)
+# with open('niche_rankings.json', 'w', encoding='utf-8') as f:
+#     json.dump(all_niche_rankings, f, ensure_ascii=False)
 
-# with open('all-products.json', 'w', encoding='utf-8') as f:
-#     json.dump(all_products_global, f, ensure_ascii=False)
+with open('all-products.json', 'w', encoding='utf-8') as f:
+    json.dump(all_products_global_final, f, ensure_ascii=False)
 
 driver.close()
 
